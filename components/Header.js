@@ -7,7 +7,7 @@ export default function Header(){
             <h1>Taylor Hershberger</h1>
             <p className="title">Front-End Web Developer</p>
             <p className="email">taylor.day.hershberger@gmail.com</p>
-            <button className="email-button" href="mailto:taylor.day.hershberger@gmail.com"><img className="email-icon" src="../img/Mail.svg" />Email</button>
+            <a href="mailto:taylor.day.hershberger@gmail.com"><button className="email-button"><img className="email-icon" src="../img/Mail.svg" />Email</button></a>
         </header>
     )
 }
